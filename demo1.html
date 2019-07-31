@@ -1,0 +1,39 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+  <title>Deacom - Walt McClure Demo</title>
+  <meta name="description" content="One page interactive for Deacom interview">
+  <meta name="author" content="Walt McClure">
+
+  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css?v=1.6">
+
+</head>
+
+<body>
+    <nav class="navbar fixed-top navbar-light bg-light">
+        <div class="logoCtr"><img id="logo" src="images/logo1.png" height="100%"></div>
+        <div class="scoreboardMenu">
+            <ul class="">
+                <li id="nav-item1" class="nav-item active">
+                    <a class="nav-link" href="javascript: game1.showGame();">Game #1<br /><span class="scoreTxt"><span id="scoreCorrect1">0</span> to <span id="scoreIncorrect1">0</span></span> </a>
+                </li>
+                <li id="nav-item2" class="nav-item">
+                    <a class="nav-link" href="javascript: game2.showGame();">Game #2<br /><span class="scoreTxt"><span id="scoreCorrect2">0</span> to <span id="scoreIncorrect2">0</span></span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>    
+    <div id="gameContainer" class="centered"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <script src="js/chartDraw.js?v2"></script>
+    <script src="js/main.js?v2.1"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+"game1":[
+  {"cardnum": "1", "type": "donut", "question":"What are the odds that a team will win its home opener?", "correctanswer": "1", "answers":["54%", "51%", "59%"]}, 
+  {"cardnum": "2", "type": "text", "question":"Since 1909, there is only one president who has not thrown a 1st pitch at an MLB game. Who was it?", "correctanswer": "3", "answers":["Richard Nixon", "Barack Obama", "Jimmy Carter"]},
+  {"cardnum": "3", "type": "text", "question":"What does the pitcher use on the mound to dry his hand?", "correctanswer": "1", "answers":["Rosin Bag", "Pine Tar", "Mound Rake"]},
+  {"cardnum": "4", "type": "donut", "question":"Since 1995, how many division titles have the Phillies won?", "correctanswer": "2", "answers":["8", "5", "15"]}
+],
+
+"game2":[
+    {"cardnum": "1", "type": "text", "question":"Which term refers to a solidly hit line drive?", "correctanswer": "2", "answers":["Pepper", "Rope", "Rhubarb"]}, 
+    {"cardnum": "2", "type": "donut", "question":"How many fans will eat a hot dog at a sporting event this year?", "correctanswer": "1", "answers":["1 in 1.1", "1 in 3.2", "1 in 6.5"]},
+    {"cardnum": "3", "type": "text", "question":"Which team has the highest average home game attendance?", "correctanswer": "3", "answers":["Cubs", "A's", "Dodgers"]},
+    {"cardnum": "4", "type": "donut", "question":"What are the odds a child will grow up to be an MLB player?", "correctanswer": "2", "answers":["1 in 5,000", "1 in 11,000", "1 in 1,000"]}
+  ]
+}
